@@ -1753,6 +1753,7 @@ static inline int i2c_reg_update_byte_dt(const struct i2c_dt_spec *spec,
 					 uint8_t reg_addr, uint8_t mask,
 					 uint8_t value)
 {
+	printk("update byte i2c\n");
 	return i2c_reg_update_byte(spec->bus, spec->addr,
 				   reg_addr, mask, value);
 }
