@@ -20,14 +20,6 @@
 
 LOG_MODULE_REGISTER(mp_mp2733, CONFIG_CHARGER_LOG_LEVEL);
 
-/**
- * TODO
- * 
- * 
- * 
- *
- *  */
-
 struct mp2733_config {
 	struct i2c_dt_spec i2c;
 	struct gpio_dt_spec ce_gpio;
